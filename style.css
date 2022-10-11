@@ -12,6 +12,8 @@ html {
 }
 body {
     font-size: 18px;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 
 header {
@@ -52,6 +54,7 @@ section:nth-child(2) {
     margin-top: 6rem;
     padding-top: 6rem;
     background-color: hsl(230, 50%, 98%);
+    position: relative;
 }
 section:nth-child(2)::before {
     content: "";
@@ -59,7 +62,7 @@ section:nth-child(2)::before {
     width: 100%;
     height: 6rem;
     position: absolute;
-    top: 54rem;
+    top: -6rem;
     left: 0px;
 }
 
